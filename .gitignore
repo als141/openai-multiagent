@@ -1,0 +1,296 @@
+# ==============================================================================
+# Python関連
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# ==============================================================================
+# 仮想環境
+# ==============================================================================
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==============================================================================
+# 実験結果・データファイル
+# ==============================================================================
+# 実験結果ディレクトリ
+results/
+llm_experiment_results/
+experiments/data/
+experiments/results/
+outputs/
+
+# 実験結果JSONファイル
+*_results.json
+*_experiment.json
+experiment_*.json
+comprehensive_llm_experiment_*.json
+
+# CSVデータファイル
+*_results.csv
+*_statistics.csv
+*_data.csv
+conversations_*.csv
+
+# テキストファイル
+*_conversations.txt
+llm_conversations_*.txt
+
+# プロットファイル
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+plots/
+
+# ==============================================================================
+# ログファイル
+# ==============================================================================
+logs/
+*.log
+*.log.*
+coordinator_*.log
+main_*.log
+debug.log
+errors.log
+experiment.log
+
+# ==============================================================================
+# 設定・認証ファイル
+# ==============================================================================
+# 環境変数
+.env
+.env.local
+.env.*.local
+
+# API keys
+.openai_key
+.anthropic_key
+api_keys.txt
+
+# 設定ファイル
+config.local.yaml
+config.local.yml
+*.secret
+
+# ==============================================================================
+# IDE・エディタ設定
+# ==============================================================================
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# ==============================================================================
+# OS生成ファイル
+# ==============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ==============================================================================
+# 一時ファイル・キャッシュ
+# ==============================================================================
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ==============================================================================
+# 依存関係管理
+# ==============================================================================
+# uv
+uv.lock
+
+# Poetry
+poetry.lock
+
+# Pipenv
+Pipfile.lock
+
+# ==============================================================================
+# OpenAI・LLM特有ファイル
+# ==============================================================================
+# API ログ
+openai_requests.log
+api_usage.log
+
+# Conversation histories
+conversations/
+*_conversations.txt
+*_conversations.json
+
+# Model outputs
+model_outputs/
+generated_text/
+
+# プロンプト実験
+prompt_experiments/
+prompt_variations/
+
+# ==============================================================================
+# ゲーム理論実験固有
+# ==============================================================================
+# ゲーム状態ファイル
+game_states/
+*_game_state.json
+experiment_state.json
+
+# エージェント記録
+agent_memories/
+agent_interactions/
+
+# 分析結果
+analysis_results/
+statistical_analysis/
+
+# ==============================================================================
+# 研究・実験固有
+# ==============================================================================
+# 大容量データファイル
+*.db
+*.sqlite
+*.sqlite3
+
+# 分析・可視化
+analysis_cache/
+visualization_cache/
+
+# Claude Assistant関連
+.claude/
+
+# Notebook outputs
+*.nbconvert.py
+
+# 実験キャッシュ
+experiment_cache/
+.experiment_cache/
+
+# エラーレポート
+error_reports/
+debug_dumps/
