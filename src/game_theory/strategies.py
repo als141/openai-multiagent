@@ -8,6 +8,21 @@ from enum import Enum
 from ..agents.types import AgentAction
 
 
+class Strategy(Enum):
+    """Strategy types for agents."""
+    COOPERATIVE = "cooperative"
+    COMPETITIVE = "competitive"
+    TIT_FOR_TAT = "tit_for_tat"
+    ADAPTIVE = "adaptive"
+    RANDOM = "random"
+
+
+class Action(Enum):
+    """Basic actions for game theory."""
+    COOPERATE = "COOPERATE"
+    DEFECT = "DEFECT"
+
+
 class StrategyType(Enum):
     """Available strategy types."""
     TIT_FOR_TAT = "tit_for_tat"
